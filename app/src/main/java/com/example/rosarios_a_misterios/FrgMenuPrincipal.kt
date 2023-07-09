@@ -11,7 +11,7 @@ class FrgMenuPrincipal : Fragment(R.layout.fragment_menu_principal) {
     // TODO: Rename and change types of parameters
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val boton =view.findViewById<Button>(R.id.button)
+        val boton =view.findViewById<Button>(R.id.btnDoloroso)
 
         boton.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
