@@ -13,5 +13,7 @@ class MainActivity : AppCompatActivity() {
             setReorderingAllowed(true)
             add(R.id.contenedorFragmento,FrgMenuPrincipal())
         }
+
+
     }
 }
