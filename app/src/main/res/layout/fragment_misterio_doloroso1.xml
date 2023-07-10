@@ -1,51 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MisterioDoloroso1">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:gravity="center|center_horizontal|center_vertical"
         android:text="Primer Misterio Doloroso"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="266dp"
-        android:layout_height="346dp"
+        android:layout_width="360dp"
+        android:layout_height="283dp"
         android:fontFamily="sans-serif"
         android:text="«Entonces Jesús fue con ellos a un huerto, llamado Getsemaní, y dijo a sus discípulos: &quot;Sentaos aquí mientras voy a orar&quot;. Y tomando consigo a Pedro y a los dos hijos de Zebedeo, comenzó a sentir tristeza y angustia. Entonces les dijo: &quot;Mi alma está triste hasta el punto de morir; quedaos aquí y velad conmigo&quot;. Y adelantándose un poco, cayó rostro en tierra, y suplicaba así: &quot;Padre mío, si es posible, que pase de mí esta copa, pero no sea como yo quiero, sino como quieras tú&quot;» (Mt 26, 36-39)."
         android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.172" />
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtPadreNuestro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Padre Nuestro"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="360dp"
+        android:layout_height="267dp"
+        android:fontFamily="sans-serif"
+        android:text="«Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. Amén."
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Avemaria x 10"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="360dp"
+        android:layout_height="191dp"
+        android:fontFamily="sans-serif"
+        android:text="«Dios te salve, María, llena eres de gracia; el Señor es contigo, bendita Tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="360dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif"
+        android:text="Gloria"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="360dp"
+        android:layout_height="128dp"
+        android:fontFamily="sans-serif"
+        android:text="Gloria al Padre y al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="360dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif"
+        android:text="María, Madre de gracia"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="360dp"
+        android:layout_height="105dp"
+        android:fontFamily="sans-serif"
+        android:text="María, Madre de gracia, Madre de misericordia. Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén."
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="360dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif"
+        android:text="Oh, Jesús Mío"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="360dp"
+        android:layout_height="151dp"
+        android:fontFamily="sans-serif"
+        android:text="Oh Jesús mío, perdónanos. Líbranos del fuego del infierno, lleva a todas las almas al cielo, especialmente a las más necesitadas."
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
 
     <Button
         android:id="@+id/btnSiguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Siguiente"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.538" />
+        android:text="Siguiente">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </Button>
+
+</LinearLayout>
+
+</ScrollView>
+
