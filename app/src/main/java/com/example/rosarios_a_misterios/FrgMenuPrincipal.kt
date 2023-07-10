@@ -12,10 +12,17 @@ class FrgMenuPrincipal : Fragment(R.layout.fragment_menu_principal) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val boton =view.findViewById<Button>(R.id.btnDoloroso)
+        val btn_luminoso = view.findViewById<Button>(R.id.btnLuminoso)
 
         boton.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
                 replace(R.id.contenedorFragmento, MisterioDoloroso1.newInstance())
+            }
+        }
+
+        btn_luminoso.setOnClickListener{
+            requireActivity().supportFragmentManager.commit {
+                replace(R.id.contenedorFragmento, misterio_luminoso.newInstance())
             }
         }
     }

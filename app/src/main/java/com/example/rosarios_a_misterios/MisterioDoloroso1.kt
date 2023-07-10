@@ -16,7 +16,7 @@ class MisterioDoloroso1 : Fragment(R.layout.fragment_misterio_doloroso1) {
     // TODO: Rename and change types of parameters
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val botonSiguiente = view.findViewById<Button>(R.id.btnSiguiente)
+        val botonSiguiente = view.findViewById<Button>(R.id.btnREGRESAR_luminoso)
 
         botonSiguiente.setOnClickListener{
             requireActivity().supportFragmentManager.commit{

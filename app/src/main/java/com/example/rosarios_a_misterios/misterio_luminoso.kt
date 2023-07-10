@@ -2,31 +2,35 @@ package com.example.rosarios_a_misterios
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.commit
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
 /**
  * A simple [Fragment] subclass.
- * Use the [MadreDeDios.newInstance] factory method to
+ * Use the [misterio_luminoso.newInstance] factory method to
  * create an instance of this fragment.
  */
-class MadreDeDios : Fragment(R.layout.fragment_madre_de_dios) {
+class misterio_luminoso : Fragment(R.layout.fragment_misterio_luminoso) {
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val boton = view.findViewById<Button>(R.id.btnSiguienteMdg)
+        val btnRegresarLuminoso = view.findViewById<Button>(R.id.btnREGRESAR_luminoso)
 
-
+        btnRegresarLuminoso.setOnClickListener{
+            requireActivity().supportFragmentManager.commit{
+                replace(R.id.contenedorFragmento, FrgMenuPrincipal.newInstance())
+            }
+        }
     }
-
 
     companion object {
 
         fun newInstance() =
-            MadreDeDios().apply {
+            misterio_luminoso().apply {
                 arguments = Bundle().apply {
 
                 }
