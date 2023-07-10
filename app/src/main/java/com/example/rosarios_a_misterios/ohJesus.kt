@@ -29,7 +29,7 @@ class ohJesus : Fragment(R.layout.fragment_oh_jesus) {
 
         boton.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
-                replace(R.id.contenedorFragmento, MadreDeGracia.newInstance())
+                replace(R.id.contenedorFragmento, MisterioDoloroso2.newInstance())
             }
 
         }
