@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center|center_horizontal|center_vertical"
-            android:text="Primer Misterio Glorioso"
+            android:text="Primer Misterio Gososo"
             android:textSize="20sp" />
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_width="360dp"
             android:layout_height="283dp"
             android:fontFamily="sans-serif"
-            android:text="«El primer día de la semana, muy de mañana, fueron al sepulcro llevando los aromas que habían preparado. Pero encontraron que la piedra había sido retirada del sepulcro, y entraron, pero no hallaron el cuerpo del Señor Jesús. No sabían qué pensar de esto, cuando se presentaron ante ellas dos hombres con vestidos resplandecientes. Ellas, despavoridas, miraban al suelo, y ellos les dijeron: &quot;¿Por qué buscáis entre los muertos al que está vivo? No está aquí, ha resucitado&quot;» (Lc 24, 1-6)."
+            android:text="«Al sexto mes el ángel Gabriel fue enviado por Dios a una ciudad de Galilea, llamada Nazaret, a una virgen desposada con un hombre llamado José, de la estirpe de David; el nombre de la virgen era María» (Lc 1,26-27)."
             android:textAlignment="center"
             android:textSize="16sp">
 
@@ -139,7 +139,7 @@
 
 
         <Button
-            android:id="@+id/btnRegGlorioso"
+            android:id="@+id/btnRegGosozo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Regresar">

@@ -13,6 +13,10 @@ class FrgMenuPrincipal : Fragment(R.layout.fragment_menu_principal) {
         super.onViewCreated(view, savedInstanceState)
         val boton =view.findViewById<Button>(R.id.btnDoloroso)
         val btn_luminoso = view.findViewById<Button>(R.id.btnLuminoso)
+        val btnGosozo = view.findViewById<Button>(R.id.btnGosozo)
+        val btnGlorioso = view.findViewById<Button>(R.id.btnGlorioso)
+
+
 
         boton.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
@@ -23,6 +27,18 @@ class FrgMenuPrincipal : Fragment(R.layout.fragment_menu_principal) {
         btn_luminoso.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
                 replace(R.id.contenedorFragmento, misterio_luminoso.newInstance())
+            }
+        }
+
+        btnGosozo.setOnClickListener{
+            requireActivity().supportFragmentManager.commit {
+                replace(R.id.contenedorFragmento, MisterioGososo.newInstance())
+            }
+        }
+
+        btnGlorioso.setOnClickListener{
+            requireActivity().supportFragmentManager.commit {
+                replace(R.id.contenedorFragmento, MisterioGlorioso.newInstance())
             }
         }
     }

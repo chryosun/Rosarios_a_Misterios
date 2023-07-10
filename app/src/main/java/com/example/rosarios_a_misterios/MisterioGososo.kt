@@ -6,29 +6,29 @@ import android.view.View
 import android.widget.Button
 import androidx.fragment.app.commit
 
+// TODO: Rename parameter arguments, choose names that match
+// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
 /**
  * A simple [Fragment] subclass.
- * Use the [PadreNuestro.newInstance] factory method to
+ * Use the [MisterioGososo.newInstance] factory method to
  * create an instance of this fragment.
  */
-class PadreNuestro : Fragment(R.layout.fragment_padre_nuestro) {
-
+class MisterioGososo : Fragment(R.layout.fragment_misterio_gososo) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val boton = view.findViewById<Button>(R.id.btnSiguiente2)
+        val btnRegGosozo = view.findViewById<Button>(R.id.btnRegGosozo)
 
-        boton.setOnClickListener{
+        btnRegGosozo.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
-                replace(R.id.contenedorFragmento, Avemaria.newInstance())
+                replace(R.id.contenedorFragmento, FrgMenuPrincipal.newInstance())
             }
         }
     }
+        companion object {
 
-
-    companion object {
         fun newInstance() =
-            PadreNuestro().apply {
+            MisterioGososo().apply {
                 arguments = Bundle().apply {
 
                 }
