@@ -19,4 +19,15 @@ class FrgMenuPrincipal : Fragment(R.layout.fragment_menu_principal) {
             }
         }
     }
+
+    companion object {
+
+
+        fun newInstance() =
+            FrgMenuPrincipal().apply {
+                arguments = Bundle().apply {
+
+                }
+            }
+    }
 }

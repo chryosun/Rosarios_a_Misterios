@@ -20,7 +20,7 @@ class MisterioDoloroso1 : Fragment(R.layout.fragment_misterio_doloroso1) {
 
         botonSiguiente.setOnClickListener{
             requireActivity().supportFragmentManager.commit{
-                replace(R.id.contenedorFragmento, PadreNuestro.newInstance())
+                replace(R.id.contenedorFragmento, FrgMenuPrincipal.newInstance())
             }
         }
 
