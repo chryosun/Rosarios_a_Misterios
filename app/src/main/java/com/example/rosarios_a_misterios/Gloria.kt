@@ -17,11 +17,7 @@ class Gloria : Fragment(R.layout.fragment_gloria) {
         super.onViewCreated(view, savedInstanceState)
         val boton = view.findViewById<Button>(R.id.btnSiguientegG)
 
-        boton.setOnClickListener{
-            requireActivity().supportFragmentManager.commit {
-                replace(R.id.contenedorFragmento, MadreDeDios.newInstance())
-            }
-        }
+
     }
 
 

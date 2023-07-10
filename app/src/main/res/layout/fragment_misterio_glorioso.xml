@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/MGLortextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Primer Misterio Glorioso"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/MGLortextView2"
+            android:layout_width="360dp"
+            android:layout_height="283dp"
+            android:fontFamily="sans-serif"
+            android:text="«El primer día de la semana, muy de mañana, fueron al sepulcro llevando los aromas que habían preparado. Pero encontraron que la piedra había sido retirada del sepulcro, y entraron, pero no hallaron el cuerpo del Señor Jesús. No sabían qué pensar de esto, cuando se presentaron ante ellas dos hombres con vestidos resplandecientes. Ellas, despavoridas, miraban al suelo, y ellos les dijeron: &quot;¿Por qué buscáis entre los muertos al que está vivo? No está aquí, ha resucitado&quot;» (Lc 24, 1-6)."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortxtPadreNuestro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Padre Nuestro"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/MGLortextView3"
+            android:layout_width="360dp"
+            android:layout_height="267dp"
+            android:fontFamily="sans-serif"
+            android:text="«Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. Amén."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView4"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Avemaria x 10"
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView5"
+            android:layout_width="360dp"
+            android:layout_height="191dp"
+            android:fontFamily="sans-serif"
+            android:text="«Dios te salve, María, llena eres de gracia; el Señor es contigo, bendita Tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView6"
+            android:layout_width="360dp"
+            android:layout_height="38dp"
+            android:fontFamily="sans-serif"
+            android:text="Gloria"
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView7"
+            android:layout_width="360dp"
+            android:layout_height="128dp"
+            android:fontFamily="sans-serif"
+            android:text="Gloria al Padre y al Hijo y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView8"
+            android:layout_width="360dp"
+            android:layout_height="52dp"
+            android:fontFamily="sans-serif"
+            android:text="María, Madre de gracia"
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView9"
+            android:layout_width="360dp"
+            android:layout_height="105dp"
+            android:fontFamily="sans-serif"
+            android:text="María, Madre de gracia, Madre de misericordia. Defiéndenos de nuestros enemigos y ampáranos ahora y en la hora de nuestra muerte. Amén."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView10"
+            android:layout_width="360dp"
+            android:layout_height="47dp"
+            android:fontFamily="sans-serif"
+            android:text="Oh, Jesús Mío"
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/MGLortextView"
+            android:layout_width="360dp"
+            android:layout_height="151dp"
+            android:fontFamily="sans-serif"
+            android:text="Oh Jesús mío, perdónanos. Líbranos del fuego del infierno, lleva a todas las almas al cielo, especialmente a las más necesitadas."
+            android:textAlignment="center"
+            android:textSize="16sp">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/MGLorbtnSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar">
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>
