@@ -11,25 +11,26 @@ import androidx.fragment.app.commit
 
 /**
  * A simple [Fragment] subclass.
- * Use the [MadreDeGracia.newInstance] factory method to
+ * Use the [MadreDeDios.newInstance] factory method to
  * create an instance of this fragment.
  */
-class MadreDeGracia : Fragment(R.layout.fragment_oh_jesus) {
+class MadreDeDios : Fragment(R.layout.fragment_madre_de_dios) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val boton = view.findViewById<Button>(R.id.btnSiguienteMdg)
 
         boton.setOnClickListener{
             requireActivity().supportFragmentManager.commit {
-                replace(R.id.contenedorFragmento, ohJesus.newInstance())
+                replace(R.id.contenedorFragmento, OhJesus.newInstance())
             }
         }
     }
 
 
     companion object {
+
         fun newInstance() =
-            MadreDeGracia().apply {
+            MadreDeDios().apply {
                 arguments = Bundle().apply {
 
                 }
