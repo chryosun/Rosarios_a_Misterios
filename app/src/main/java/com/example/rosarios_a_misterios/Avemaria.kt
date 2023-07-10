@@ -23,7 +23,7 @@ class Avemaria : Fragment(R.layout.fragment_avemaria) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val botonSiguiente = view.findViewById<Button>(R.id.btnSiguiente4)
-        txtavemaria = view.findViewById<TextView>(R.id.textView7)
+        txtavemaria = view.findViewById(R.id.textView7)
 
         actualizarLabel()
 
@@ -40,7 +40,7 @@ class Avemaria : Fragment(R.layout.fragment_avemaria) {
     }
 
     private fun actualizarLabel() {
-        txtavemaria.text = "Avemaria $contador"
+        txtavemaria.text = "$contador° Avemaria"
     }
 
     companion object {
